@@ -1,0 +1,93 @@
+.header {
+  display: flex;
+}
+
+.weekContainer {
+  margin-top: 13px;
+
+  .weekItem {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin-right: 9px;
+    color: #878d99;
+    font-weight: 500;
+    font-size: 12px;
+    font-family: PingFangSC-Medium;
+    line-height: 12px;
+    letter-spacing: 0;
+    text-align: center;
+    text-align: center;
+  }
+
+  .weekItem:last-child {
+    margin-right: 0;
+  }
+}
+
+.daysContainer {
+  margin-top: 6px;
+
+  .row {
+    display: flex;
+    margin-bottom: 10px;
+
+    .dateContainer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 22px;
+      height: 22px;
+      margin-right: 9px;
+      font-weight: 400;
+      font-size: 12px;
+      font-family: PingFangSC-Regular;
+      letter-spacing: 0;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+
+    .dateContainer:nth-child(7) {
+      margin-right: 0;
+    }
+
+    .dateContainer:hover {
+      background-color: #f2f3f5;
+    }
+
+    span {
+      font-weight: 400;
+      font-size: 12px;
+      font-family: PingFangSC-Regular;
+      letter-spacing: 0;
+    }
+
+    .dayItem {
+      color: #11141a;
+    }
+
+    .notCurMonth {
+      color: #c8cdd9;
+      cursor: default;
+    }
+
+    .notCurMonth:hover {
+      background-color: #fff;
+    }
+
+    .curDay {
+      color: #5a90fa;
+      background-color: #ebf1ff;
+    }
+
+    .selectDay {
+      color: #fff;
+      background: linear-gradient(135deg, #4da6ff 0%, #3377ff 100%);
+      border-radius: 11px;
+    }
+  }
+
+  .row:last-child {
+    margin-bottom: 0;
+  }
+}
