@@ -59,6 +59,10 @@ const Calendar = (props: IProps) => {
         <div className={styles.select_month}>{month + 1}月</div>
         <div className={styles.select_day}>{day}日</div>
       </div>
+      <div>
+        <div>上个月</div>
+        <div>下个月</div>
+      </div>
       <div className={styles.weekContainer}>
         <span className={styles.weekItem}>{'日'}</span>
         <span className={styles.weekItem}>{'一'}</span>

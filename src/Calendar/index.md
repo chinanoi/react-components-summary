@@ -2,7 +2,7 @@
 
 ```tsx
 import React from 'react';
-import { Calendar } from 'reactProjects';
+import { Calendar } from 'components-summary';
 
 const timestamp = Date.now();
 

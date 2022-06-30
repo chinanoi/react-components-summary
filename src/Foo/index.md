@@ -5,7 +5,7 @@ Demo:
 
 ```tsx
 import React from 'react';
-import { Foo } from 'reactProjects';
+import { Foo } from 'components-summary';
 
 export default () => <Foo title="First Demo" />;
 ```
