@@ -15,9 +15,7 @@ const isSameDay = (a: Date, b: Date) => {
 };
 
 // 判断日期是否在本月
-const isCurrentMonthOfday = () => {
-
-};
+const isCurrentMonthOfday = () => {};
 
 // 将传入的时间戳转为年、月、日
 const getYearMonthDay = (timestamp: number) => {

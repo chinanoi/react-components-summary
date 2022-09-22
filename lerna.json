@@ -1,0 +1,10 @@
+{
+  "packages": ["packages/*"],
+  "useWorkSpaces": true,
+  "bootstrap": {
+    "ignore": "component-*",
+    "npmClientArgs": ["--no-package-lock"]
+  },
+  "npmClient": "yarn",
+  "version": "independent"
+}
