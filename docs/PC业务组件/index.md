@@ -8,6 +8,15 @@ toc: menu
 
 # PC 业务组件
 
+## cs
+
+```tsx
+import React from 'react';
+import { TableDemo } from '@sumary/pc';
+
+export default () => <TableDemo />;
+```
+
 ## SortCard
 
 ```tsx

@@ -2,5 +2,8 @@
   "name": "@sumary/pc",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "antd": "^4.23.2"
+  }
 }
