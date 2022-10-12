@@ -17,6 +17,16 @@ import { TableDemo } from '@sumary/pc';
 export default () => <TableDemo />;
 ```
 
+## 组件带初始化方法
+
+```tsx
+import React from 'react';
+import { Login, loginConfigInit } from '@sumary/pc';
+loginConfigInit({ num: 123 });
+
+export default () => <Login />;
+```
+
 ## SortCard
 
 ```tsx

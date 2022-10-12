@@ -100,6 +100,13 @@ class TableDemo extends PureComponent {
               onClick={() => {
                 // 点击切换下面的状态
                 console.log(1);
+                const c = columns.map((i) => ({
+                  ...i,
+                  status: SORT_TYPE.DES,
+                }));
+
+                this.setState({ columns: c });
+                console.log('c', c);
               }}
             >
               状态{i.status}

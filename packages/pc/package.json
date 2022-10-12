@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "antd": "^4.23.2"
+    "antd": "^4.23.2",
+    "lodash": "^4.17.21"
   }
 }
