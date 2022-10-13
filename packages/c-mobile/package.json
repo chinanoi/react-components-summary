@@ -2,15 +2,13 @@
   "name": "@sumary/c-mobile",
   "version": "1.0.0",
   "description": "",
-  "main": "lib/index.js",
-  "module": "es/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "peerDependencies": {
-    "react": ">=16.12.0",
-    "react-dom": ">=16.12.0"
+  "dependencies": {
+    "antd-mobile": "^5.24.0"
   }
 }
