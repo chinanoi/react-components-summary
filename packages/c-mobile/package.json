@@ -1,0 +1,23 @@
+{
+  "name": "@sumary/c-mobile",
+  "version": "1.0.0",
+  "description": "h5",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "files": [
+    "lib",
+    "es"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antd-mobile": "^5.24.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.12.0",
+    "react-dom": ">=16.12.0"
+  }
+}

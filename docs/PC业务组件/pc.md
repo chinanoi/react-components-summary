@@ -4,6 +4,7 @@ nav:
   order: 2
 order: 1
 toc: menu
+mobile: false
 ---
 
 # PC 业务组件
@@ -12,7 +13,7 @@ toc: menu
 
 ```tsx
 import React from 'react';
-import { TableDemo } from '@sumary/pc';
+import { TableDemo } from '@sumary/c-pc';
 
 export default () => <TableDemo />;
 ```
@@ -21,7 +22,7 @@ export default () => <TableDemo />;
 
 ```tsx
 import React from 'react';
-import { Login, loginConfigInit } from '@sumary/pc';
+import { Login, loginConfigInit } from '@sumary/c-pc';
 loginConfigInit({ num: 123 });
 
 export default () => <Login />;
@@ -31,7 +32,7 @@ export default () => <Login />;
 
 ```tsx
 import React from 'react';
-import { SortCard } from '@sumary/pc';
+import { SortCard } from '@sumary/c-pc';
 
 const timestamp = Date.now();
 
@@ -42,7 +43,7 @@ export default () => <SortCard timestamp={timestamp} />;
 
 ```tsx
 import React from 'react';
-import { Calendar } from '@sumary/pc';
+import { Calendar } from '@sumary/c-pc';
 
 const timestamp = Date.now();
 
@@ -53,7 +54,7 @@ export default () => <Calendar timestamp={timestamp} />;
 
 ```tsx
 import React from 'react';
-import { BilateralControll } from '@sumary/pc';
+import { BilateralControll } from '@sumary/c-pc';
 
 export default () => <BilateralControll title="First Demo" />;
 ```

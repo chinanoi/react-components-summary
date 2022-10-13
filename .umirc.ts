@@ -1,9 +1,5 @@
 import { defineConfig } from 'dumi';
-const path = require('path');
 const fs = require('fs');
-
-const appDirectory = fs.realpathSync(process.cwd());
-const resolveApp = (relativePath) => path.resolve(appDirectory, relativePath);
 
 export default defineConfig({
   title: 'summary',
@@ -13,10 +9,10 @@ export default defineConfig({
   outputPath: 'docs-dist',
   mode: 'site',
   // more config: https://d.umijs.org/config
-  resolve: {
-    extensions: ['.ts', '.tsx', '.js', '.jsx'],
-    alias: {
-      '@': resolveApp('src'),
+  themeConfig: {
+    carrier: '预览', // 设备状态栏左侧的文本内容
+    hd: {
+      rules: [{ mode: 'vw', options: [75, 750] }],
     },
   },
 });
