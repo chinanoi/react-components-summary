@@ -5,3 +5,5 @@ export { default as TableDemo } from './components/TableDemo';
 
 export { default as Login } from './components/Login';
 export { loginConfigInit } from './components/Login/config';
+
+export { default as List } from './components/List';

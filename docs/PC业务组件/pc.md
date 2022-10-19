@@ -9,6 +9,25 @@ mobile: false
 
 # PC 业务组件
 
+## 列表渲染
+
+```tsx
+import React from 'react';
+import { List } from '@sumary/c-pc';
+
+export default () => <List />;
+```
+
+## 组件带初始化方法
+
+```tsx
+import React from 'react';
+import { Login, loginConfigInit } from '@sumary/c-pc';
+loginConfigInit({ num: 123 });
+
+export default () => <Login />;
+```
+
 ## cs
 
 ```tsx
